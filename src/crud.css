@@ -1,0 +1,61 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+table td{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+table td button{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+table td button.update{
+    border: 1px solid yellow;
+    background-color: yellow;
+    color: black;
+}
+table td button.update:hover{
+    background-color: yellowgreen;
+}
+table td button.delete{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
+table td button.delete:hover{
+    background-color: rgb(53, 3, 13);
+}
+.judul{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+.form{
+    display: flex; 
+    justify-content: center;
+    margin: 20px;
+    gap: 10px;
+}
+.form input{
+    width: 200px;
+    height: 20px;
+}
+.form button{
+    width: 100px;
+    color: white;
+    border: 1px solid green;
+    background-color: green;
+}
+.form button:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+
